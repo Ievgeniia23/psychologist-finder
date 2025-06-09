@@ -9,7 +9,8 @@ const Home = () => {
     <div>
       <div>
         <h1>
-          The road to the <span>depths</span> of the human soul
+          The road to the <span className={css.italic}>depths</span> of the
+          human soul
         </h1>
         <p>
           We help you to reveal your potential, overcome challenges and find a
@@ -20,16 +21,30 @@ const Home = () => {
 
       <div>
         <img
+          className={css.woman}
           src={woman1x}
           srcSet={`${woman1x} 1x, ${woman2x} 2x`}
           alt="woman"
         />
-        <svg className={css.iconStyle}>
-          <use href={icons + '#icon-question'}></use>
-        </svg>
-        <svg>
-          <use href={icons + '#icon-users'}></use>
-        </svg>
+        <div className={css.questionWrap}>
+          <svg className={css.questionStyle}>
+            <use href={icons + '#icon-question'}></use>
+          </svg>
+        </div>
+        <div className={css.usersWrap}>
+          <svg className={css.usersStyle}>
+            <use href={icons + '#icon-users'}></use>
+          </svg>
+        </div>
+        <div className={css.greenWrap}>
+          <div className={css.checkWrap}>
+            <svg className={css.checkStyle}>
+              <use href={icons + '#icon-fe_check'}></use>
+            </svg>
+          </div>
+          <p>Experienced psychologists</p>
+          <p>15,000</p>
+        </div>
       </div>
     </div>
   );

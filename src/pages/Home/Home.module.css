@@ -1,5 +1,74 @@
-.iconStyle {
-    background-color: #4535AF;
-    width: 40px;
-    height: 40px;
+h1 {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.025;
+}
+.italic {
+  font-style: italic;
+  color: var(--color-lightgreen);
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33333;
+}
+.woman {
+  width: 464px;
+  height: 526px;
+}
+
+.questionWrap {
+  background-color: #4535af;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionStyle {
+  width: 10px;
+  height: 17px;
+  transform: rotate(15deg) scale(1.5);
+}
+
+.usersWrap {
+  background-color: #fbc75e;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usersStyle {
+  width: 19px;
+  height: 19px;
+  transform: rotate(-15deg) scale(1.5);
+}
+
+.greenWrap {
+  background-color: var(--color-lightgreen);
+  border-radius: 20px;
+  width: 311px;
+  height: 118px;
+}
+.checkWrap {
+  background-color: white;
+  border-radius: 13px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkStyle {
+  color: var(--color-lightgreen);
+  width: 30px;
+  height: 30px;
 }
