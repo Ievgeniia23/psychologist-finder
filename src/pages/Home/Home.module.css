@@ -1,25 +1,65 @@
+.homeWrapper {
+  display: flex;
+  gap: 125px;
+}
+
+.leftWrap {
+  width: 595px;
+  height: 438px;
+  margin-top: 122px;
+  margin-bottom: 144px;
+}
+
 h1 {
   font-weight: 600;
   font-size: 80px;
-  line-height: 1.025;
+  line-height: 1.03;
+  margin-bottom: 20px;
 }
 .italic {
   font-style: italic;
   color: var(--color-lightgreen);
 }
 
-p {
+.description {
   font-weight: 500;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
+  margin-bottom: 40px;
 }
+.buttonWrap {
+  background-color: var(--color-lightgreen);
+  color: var(--color-white);
+  display: flex;
+  gap: 18px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 18px 50px;
+  width: 235px;
+  height: 60px;
+}
+.arrowStyle {
+  width: 18px;
+  height: 18px;
+}
+
+.rightWrap {
+  margin-top: 78px;
+  margin-bottom: 100px;
+}
+
 .woman {
+  position: relative;
   width: 464px;
   height: 526px;
 }
 
 .questionWrap {
-  background-color: #4535af;
+  position: absolute;
+  top: 40%;
+  /* left: -10%; */
+  background-color: var(--color-violet);
   width: 40px;
   height: 40px;
   border-radius: 10px;
@@ -36,7 +76,7 @@ p {
 }
 
 .usersWrap {
-  background-color: #fbc75e;
+  background-color: var(--color-orange);
   width: 48px;
   height: 48px;
   border-radius: 10px;
@@ -56,9 +96,14 @@ p {
   border-radius: 20px;
   width: 311px;
   height: 118px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 .checkWrap {
-  background-color: white;
+  background-color: var(--color-white);
   border-radius: 13px;
   width: 54px;
   height: 54px;
@@ -71,4 +116,21 @@ p {
   color: var(--color-lightgreen);
   width: 30px;
   height: 30px;
+}
+.informationWrap {
+  width: 177px;
+  /* height: 54px; */
+}
+
+.paragraphStyle {
+  color: var(--color-white);
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.numberStyle {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 24px;
 }
