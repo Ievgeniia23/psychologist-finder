@@ -7,7 +7,7 @@ const buildCssClasses = ({ isActive }) =>
 
 const Navigation = () => {
     return (
-        <nav>
+        <nav className={css.navigation}>
             <NavLink to="/" className={buildCssClasses}>
                 Home</NavLink>
             <NavLink to="/psychologists" className={buildCssClasses}>

@@ -1,0 +1,45 @@
+.wrapper {
+  padding-block: 24px;
+  display: flex;
+  border-bottom: solid 1px grey;
+  padding: 24px 128px;
+}
+
+.leftWrapper {
+  display: flex;
+  gap: 130px;
+  margin-right: 345px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.rightWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.logInWrapper {
+  border: 1px solid rgba(25, 26, 21, 0.2);
+  border-radius: 30px;
+  padding: 14px 39px;
+  width: 124px;
+  height: 48px;
+  background: transparent;
+  font-weight: 500;
+  /* font-size: 16px; */
+  line-height: 1.25;
+}
+.registrationWrapper {
+  border-radius: 30px;
+  padding: 14px 40px;
+  width: 171px;
+  height: 48px;
+  background: #54be96;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
